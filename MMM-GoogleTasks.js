@@ -7,7 +7,7 @@ Module.register("MMM-GoogleTasks",{
 		showCompleted: false, //set showCompleted and showHidden true
 		ordering: "myorder", // Order by due date or by 'my order' NOT IMPLEMENTED
 		dateFormat: "MMM Do", // Format to display dates (moment.js formats)
-		updateInterval: 10000, // Time between content updates (millisconds)
+		updateInterval: 120000, // Time between content updates (milliseconds)
 		animationSpeed: 2000, // Speed of the update animation (milliseconds)
 		tableClass: "small", // Name of the classes issued from main.css
 		
